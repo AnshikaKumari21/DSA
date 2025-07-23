@@ -6,7 +6,7 @@ class Loops{
         Scanner sc=new Scanner(System.in);
         //For Loop
         //For(initialization;ondition;updation);
-      /* for (int i = 0; i < 10; i++) {
+      for (int i = 0; i < 10; i++) {
             System.out.println(i+ " ");
         }
         
@@ -47,7 +47,7 @@ class Loops{
        while(l<=10){
         System.out.println(l*num);
         l++;
-       }*/
+       }
 
 
 //Pattern Problems
@@ -79,12 +79,12 @@ for(int c=1;c<=4;c++){
 //*   *
 //*****
 
-/*for(int e=1;e<=4;e++){
+for(int e=1;e<=4;e++){
     for(int f=1;f<=e;f++){
             System.out.print("*");
         }
         System.out.println();
-    }*/
+    }
 
 //*
 //**
@@ -102,7 +102,7 @@ for(int e=4;e>=1;e--){
 //**
 //*
 
-for(int g=1;g<=4;g++){
+/*for(int g=1;g<=4;g++){
     for(int h=1;h<=4-g;h++){
         System.out.print(" ");
     }
@@ -153,6 +153,7 @@ for(int q=1;q<=5;q++){
 //4 5 6 
 //7 8 9 10 
 //11 12 13 14 15 
+
 for(int s=1;s<=5;s++){
     for(int t=1;t<=s;t++){
         int sum=s+t;
@@ -171,6 +172,124 @@ for(int s=1;s<=5;s++){
 //0101
 //10101
 
+int u=5;
+for(int i=1;i<=u;i++){
+    for(int j=1;j<=i;j++){
+        System.out.print("*");
+    }
+    int spaces=2*(u-i);
+    for(int j=1;j<=spaces;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=i;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+for(int i=u;i>=1;i--){
+    for(int j=1;j<=i;j++){
+        System.out.print("*");
+    }
+    int spaces=2*(u-i);
+    for(int j=1;j<=spaces;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=i;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+//*        *
+//**      **
+//***    ***
+//****  ****
+//**********
+//**********
+//****  ****
+//***    ***
+//**      **
+//*        *
+
+int r=5;
+for(int i=1;i<=r;i++){
+    for(int j=1;j<=r-i;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=r;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+//    *****
+//   *****
+//  *****
+// *****
+//*****
+
+int s=5;
+for(int i=1;i<=s;i++){
+    for(int j=1;j<=s-i;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=i;j++){
+        System.out.print(i+" ");
+    }
+    System.out.println();
+}
+//    1 
+//   2 2 
+//  3 3 3 
+// 4 4 4 4 
+//5 5 5 5 5 
+
+int p=5;
+for(int i=1;i<=p;i++){
+    for(int j=1;j<=p-i;j++){
+        System.out.print(" ");
+    }
+    for(int j=i;j>=1;j--){
+        System.out.print(j);
+    }
+    for(int j=2;j<=i;j++){
+        System.out.print(j);
+    }
+    System.out.println();
+}
+//    1
+//   212
+//  32123
+// 4321234
+//543212345
+
+int q=5;
+for(int i=1;i<=q;i++){
+    for(int j=1;j<=q-i;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=2*i-1;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+for(int i=q;i>=1;i--){
+    for(int j=1;j<=q-i;j++){
+        System.out.print(" ");
+    }
+    for(int j=1;j<=2*i-1;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+//    *
+//   ***
+//  *****
+// *******
+//*********
+//*********
+// *******
+//  *****
+//   ***
+//    *
 }
     }     
         
