@@ -3,7 +3,7 @@ public class BitManipulation{
     public static void main(String args[]){
         //Get Bit
         Scanner sc= new Scanner (System.in);
-        int n=5;
+        /*int n=5;
         int pos=2;
         int BitMask=1<<pos;
         if((BitMask & n)==0){
@@ -47,7 +47,7 @@ public class BitManipulation{
             int newnumber=notBitmask&q;
             System.out.println(newnumber);
 
-        }
+        }*/
         
         
 
