@@ -29,3 +29,22 @@ public class Scope{
         
     }
 }
+
+/*Scope refers to the region of the program where a variable (or method/class) is accessible.
+Local Scope:-
+A variable declared inside a method, constructor, or block.
+
+It can only be used inside that method/block.
+
+Instance (Object) Scope:-
+Variables declared inside a class but outside any method (i.e., instance variables).
+
+They are tied to an object.
+
+Class (Static) Scope:-
+Declared with the static keyword.
+
+Shared among all objects of the class.
+
+Block Scope:-
+Variables declared inside {} brackets exist only within those braces*/
