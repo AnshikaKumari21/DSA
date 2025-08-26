@@ -65,9 +65,5 @@ public static void main(String[] args){
 }*/
 
 //Fibonacci series using nth term
-public static int calcFibo(int n){
-    
-}
-
 }
 

@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Functions{
     /*public static void printMyName(String name){
         System.out.println(name);
@@ -92,7 +91,7 @@ public static void main(String args[]){
 }*/
 
 //Write a function which takes in 2 numbers and returns the greater of those two.
-public static void greaterNum(int a,int b){
+/*public static void greaterNum(int a,int b){
     if(a>b){
         System.out.println("a is larger");
     }
@@ -110,4 +109,27 @@ public static void main(String args[]){
     greaterNum(a,b);
 }
 
-    }
+    }*/
+
+
+   /*public static void main(String[] args) {
+       greet();
+   }
+   static void greet(){
+    String greeting="how are you";
+    System.out.println(greeting); 
+   }
+   
+   }*/
+
+  public static void main(String[] args){
+    String personalised=greet("anshika");
+    System.out.println(personalised);
+
+  }
+  static String greet(String name){
+    String message="Hello "+name;
+    return message;
+
+  }
+}
