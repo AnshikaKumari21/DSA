@@ -32,7 +32,7 @@ for(int i=0;i<numbers.length;i++){
     }*/
 
 //2D Arrays
-int rows=sc.nextInt();
+/*int rows=sc.nextInt();
 int cols=sc.nextInt();
 int num[][]=new int[rows][cols];
 
@@ -66,7 +66,26 @@ for(int i=0;i<r;i++){
         }
 
     }
+}*/
+
+int[][] arr =new int[3][3];
+System.out.println(arr.length);
+for(int rows=0;rows<arr.length;rows++){
+    for(int cols=0;cols<arr[rows].length;cols++){
+        arr[rows][cols]=sc.nextInt();
+    }
+    System.out.println();
 }
+for(int rows=0;rows<arr.length;rows++){
+    //for(int cols=0;cols<arr[rows].length;cols++){
+    //    System.out.print(arr[rows][cols]+" ");
+    System.out.println(java.util.Arrays.toString(arr[rows]));
+    }
+    System.out.println();
+
+//Enhanced for loop:
+
 
 }
-}
+    }
+//}
